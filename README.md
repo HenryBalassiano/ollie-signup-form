@@ -1,10 +1,10 @@
-# 🐾 Ollie Pets Signup Form
+# Ollie Pets Signup Form
 
 A responsive signup form built with **Next.js 14**, **TypeScript**, **Tailwind CSS**, and **Zod** for schema-based validation.
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 To run the project locally:
 
@@ -12,7 +12,7 @@ To run the project locally:
 
 ```npm run dev```
 
-## 🛠️ Tech Stack
+## Tech Stack
 Next.js 14 (App Router)
 
 React with TypeScript
@@ -21,7 +21,7 @@ Tailwind CSS for styling
 
 Zod for form validation
 
-## 📄 Features
+## Features
 Responsive layout with image and form side-by-side on desktop
 
 Stacks image above form on mobile
