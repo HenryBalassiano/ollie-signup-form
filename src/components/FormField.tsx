@@ -19,7 +19,7 @@ export default function FormField({
 }: FormFieldProps) {
   return (
     <div className="flex flex-col gap-1">
-      <label htmlFor={name} className="text-sm font-medium">
+      <label htmlFor={name} className="text-md font-medium">
         {label}
       </label>
       <input
@@ -31,7 +31,9 @@ export default function FormField({
         onBlur={onBlur}
         className="border border-gray-300 rounded p-2"
       />
-      {error && <p className="text-sm text-red-500">{error}</p>}
+      <p className="text-sm min-h-[1.25rem] text-red-500">
+        {error || "\u00A0"}
+      </p>{" "}
     </div>
   );
 }
