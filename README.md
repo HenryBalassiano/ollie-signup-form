@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🐾 Ollie Pets Signup Form
 
-## Getting Started
+A responsive signup form built with **Next.js 14**, **TypeScript**, **Tailwind CSS**, and **Zod** for schema-based validation.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Getting Started
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+To run the project locally:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```npm install```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```npm run dev```
 
-## Learn More
+## 🛠️ Tech Stack
+Next.js 14 (App Router)
 
-To learn more about Next.js, take a look at the following resources:
+React with TypeScript
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Tailwind CSS for styling
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Zod for form validation
 
-## Deploy on Vercel
+## 📄 Features
+Responsive layout with image and form side-by-side on desktop
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Stacks image above form on mobile
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Validations on blur and submit
+
+Accessible and semantic HTML
+
+Scalable and clean component architecture
